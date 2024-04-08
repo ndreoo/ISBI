@@ -1,5 +1,9 @@
 Progetto Bonita
 
+L'intento di questo sistema è quello di migliorare il controllo del flusso del traffico lungo le tratte della Tangenziale di Napoli,
+in modo da rendere il processo di gestione più efficiente, introducendo una sensoristica 'intelligente',
+ed un nuovo standard, descritto dal progetto Bonita qui presente.
+
 Il progetto si compone di due pool:
 1) Pool: In questo processo ci sono due attori:
 	-Sensor : Si riferisce ad una parte sensoristica, ad esempio telecamere.
@@ -9,7 +13,7 @@ Il progetto si compone di due pool:
 	-Employee: In base alla segnalazione automatica ricevuta dal sistema di sensori,
 	decide se aprire o no le sbarre della stazione in questione.
 	Il sistema aziona automaticamente le telecamere, che avranno il compito di 
-	salvare in un db esterno (non di nostra competenza) i numeri di targa
+	salvare in un db esterno (non di nostra competenza)  i numeri di targa
 	delle auto che superano il casello (poichè sono state alzate le sbarre,
 	gli utenti non pagheranno il pedaggio). In tal modo il costo potrà 
 	essere attribuito al proprietario dell'auto in un secondo momento (non di nostra competenza).
