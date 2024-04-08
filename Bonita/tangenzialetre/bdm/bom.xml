@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Tang">
+            <fields>
+                <field type="LOCALDATETIME" length="255" name="datet" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="stazione" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="traffico" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="causa" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="open_bars" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="accept" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
