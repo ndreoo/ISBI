@@ -9,7 +9,9 @@ Il progetto si compone di due pool:
 	-Sensor : Si riferisce ad una parte sensoristica, ad esempio telecamere.
 	I sensori osservano il traffico in ognuna delle tratte di 
 	competenza della tangenziale di Napoli. Laddove trovano un aumento del traffico
-	segnalano tramite una notifica ad un Employee
+	segnalano tramite una notifica ad un Employee.
+	ATTENZIONE!!! Ovviamente i sensori non esistono fisicamente, dunque verrà fornita 
+	una simulazione, facendo inserire i dati tramite un form.
 	-Employee: In base alla segnalazione automatica ricevuta dal sistema di sensori,
 	decide se aprire o no le sbarre della stazione in questione.
 	Il sistema aziona automaticamente le telecamere, che avranno il compito di 
