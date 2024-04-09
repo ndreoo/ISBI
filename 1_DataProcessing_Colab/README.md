@@ -27,3 +27,9 @@ base alle preferenze musicali.
   Un altro problema è che i record sono pochi se rapportati alla varianza dei risultati.
   Per tutti i motivi qui citati, ho scelto di effettuare un oversampling del dataset
   (è tutto commentato e spiegato nel codice sorgente).
+
+  Gli altri file presenti in  questa directory sono:
+  -1 ALTAI for self assessment: è un documento che risponde a specifiche domande sul
+     sistema di AI.
+  -2 Model Card : Descrive il sistema in termini di bias, metriche adoperate, modelli
+    utilizzati, livello di accuracy etc etc
