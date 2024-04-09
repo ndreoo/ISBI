@@ -1,7 +1,7 @@
 Progetto Bonita
 
 L'intento di questo sistema è quello di migliorare il controllo del flusso del traffico lungo le tratte della Tangenziale di Napoli,
-in modo da rendere il processo di gestione più efficiente, introducendo una sensoristica 'intelligente',
+in modo da rendere il processo di gestione più efficiente, introducendo una sensoristica 'intelligente'
 ed un nuovo standard, descritto dal progetto Bonita qui presente.
 
 Il progetto si compone di due pool:
