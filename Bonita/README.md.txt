@@ -26,7 +26,11 @@ Il progetto si compone di due pool:
 E' inoltre presente un connettore ad un database Mysql esterno, che tiene traccia dello stato
 delle varie stazioni. In particolare ogni volta che vengono alzate le sbarre e 
 azionate le telecamere in una specifica stazione, verrà effettuato l update 
-del rispettivo record in tabella.
+del rispettivo record in tabella. 
 Tutto questo viene effettuato in maniera automatica dal sistema con il task 'Start Reg'.
-La connessione al db MySQL avviene tramite XAMPP e PhpMyAdmin, quindi se si vuole eseguire il 
-progetto bisogna effettuare il download di questi due servizi.
+Nella Operative Pool gli attori sono sempre due: l'unità operativa di SOS ed
+una parte automatizzata. La prima, dovrà decidere se accettare o meno 
+la richiesta di intervento. In caso affermativo, la parte automatizzata invierà
+una email al manager avvisandolo riguardo l'incidente e l'intervento.
+La connessione al db MySQL avviene tramite XAMPP e PhpMyAdmin, mentre per quanto 
+riguarda il server di posta, è stata utilizzata l'applicazione java FakeSMTP.
