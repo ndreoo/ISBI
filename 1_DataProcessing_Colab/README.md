@@ -19,6 +19,7 @@ base alle preferenze musicali.
   Il dataset si presenta squilibrato: la maggioranza delle persone
   che hanno partecipato inserendo i propri dati è compresa nella fascia
   d'età tra i 15 ed i 25 anni.
+  La piattaforma di streaming più utilizzata è Spotify.
   Inoltre bisogna notare che i valori nelle feature come
   Depression, Anxiety, OCD non sono stati inseriti e documentati da esperti
   settoriali (ad esempio psicologi) ma dall'utente stesso, che potrebbe
